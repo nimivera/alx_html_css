@@ -18,3 +18,20 @@ body {
     flex: 1;
     overflow-y: auto;
   }
+
+  body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .logo {
+    /* you can add additional styles to the logo if needed */
+    color: #ffc107;
+  }
