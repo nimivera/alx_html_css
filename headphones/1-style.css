@@ -98,10 +98,109 @@ body {
   }
 
   
+  .what-we-do {
+/* What we do… */
+
+position: absolute;
+height: 40px;
+left: 35.01%;
+right: 34.85%;
+top: calc(50% - 40px/2 - 72px);
+
+font-family: 'SourceSansPro';
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+
+color: #071629;
+  }
   
-  
+
+.main{
+/* Lorem ipsum dolor si Copy */
+
+position: absolute;
+height: 104px;
+left: 0%;
+right: 0%;
+top: calc(50% - 104px/2 + 40px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+text-align: center;
+
+color: #071629;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service-1 span, .service-2 span, .service-3 span, .service-4 span {
+
+position: absolute;
+left: 35.75%;
+right: 34.57%;
+top: 0%;
+bottom: 65.87%;
+display: flex;
+justify-content: space-between;
+
+background: #FF6565;
 
 
+}
 
- 
+.service-1 h3, .service-2 h3, .service-3 h3, .service-4 h3 {
+ /* Lorem ipsum */
 
+position: absolute;
+height: 26px;
+left: 0%;
+right: 0%;
+top: calc(50% - 26px/2 + 12px);
+
+font-family: 'SourceSansPro';
+font-size: 18px;
+line-height: 26px;
+/* identical to box height, or 144% */
+text-align: center;
+
+color: #071629;
+
+}
+
+.service-1 p, .service-2 p, .service-3 p, .service-4 p {
+
+position: absolute;
+height: 52px;
+left: 0%;
+right: 0%;
+top: calc(50% - 52px/2 + 64px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+
+text-align: center;
+
+color: #071629;
+
+}
+
+.holberton_school-icon-music,
+.holberton_school-icon-video,
+.holberton_school-icon-hearing,
+.holberton_school-icon-sound {
+  font-size: 36px;
+  margin-bottom: 10px;
+  display: block;
+}
